@@ -3,7 +3,13 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "resolve an npm-style semver range to a git tag for a github repo",
-  "keywords": ["github", "semver", "npm", "version", "range"],
+  "keywords": [
+    "github",
+    "semver",
+    "npm",
+    "version",
+    "range"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha"
@@ -11,8 +17,13 @@
   "repository": "git@github.com:jden/github-resolve-semver.git",
   "license": "MIT",
   "readmeFilename": "README.md",
+  "dependencies": {
+    "semver": "~1.1.4"
+  },
   "devDependencies": {
     "chai": "~1.6.0",
-    "mocha": "~1.9.0"
+    "mocha": "~1.9.0",
+    "sinon-chai": "~2.4.0",
+    "sinon": "~1.7.2"
   }
 }
