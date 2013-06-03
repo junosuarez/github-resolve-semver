@@ -51,7 +51,7 @@ resolve.tags = function (username, repo, y) {
 
   req.end()
   req.on('error', function(e) {
-    fn(e)
+    y(e)
   })
 }
 
